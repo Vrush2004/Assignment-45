@@ -46,7 +46,7 @@ export default function Home(){
                 />
             </div>
             
-            {winner ? (<p className="text-center text-2xl">Winner Team is <b className="underline decoration-vavy mx-4">{winner}🏆🏆🏆</b>. Click reset to start again</p>) : null}
+            {winner ? (<p className="text-center text-2xl mt-5">Winner Team is <b className="underline decoration-vavy mx-4">{winner}🏆🏆🏆</b>. Click reset to start again</p>) : null}
 
             <button 
                 className="py-2 px-10 bg-slate-600 text-white text-xl md:text-2xl rounded-lg font-bold m-auto block md:mt-10 mt-5 shadow-lg hover:bg-slate-500 cursor-pointer" 
